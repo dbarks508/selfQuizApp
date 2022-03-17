@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Flash Card Creator</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+<div id="wrapper">
+<header>Flash Card Creator</header>
+	<h3>Need help studying? Welcome to an interactive flash card creator! Enter a question and answer 
+		pair and press "Log Q and A." When youre ready to test your knowledge, press "Take Test."
+	</h3>
+		<p>Enter test question:</p>
+			<input type="text" id="question" name="question" />
+		<p>Enter answer:</p>
+			<input type="text" id="answer" name="answer" />
+			<input type="button" id="pairLog" value="Log Q and A" /> &nbsp &nbsp
+			<input id="testButton" type="button" value="Take Test" />
+		<p id="errorDiv"></p>
+<div id="testContainer">
+	<h3>Enter your answers and press "Check Answers" to see how you did! Press "Reset" to test again. 
+		If you would like to add questions to your test, press "Add Questions" and follow the process again.
+	</h3>
+		<input type="button" id="checkAnswers" value="Check Answers" /> &nbsp &nbsp
+		<input type="button" id="resetTest" value="Reset" /> &nbsp &nbsp
+		<input type="button" id="addQuestions" value="Add Questions" />
+</div>
+</div>
+<script src="selfQuiz.js"></script>
+</body>
+</html>

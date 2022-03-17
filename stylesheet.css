@@ -1,0 +1,53 @@
+#wrapper{
+	width: 75%;
+	padding: 10px;
+	background-color: LightBlue;
+	margin: auto auto;
+	height: 100%;
+} 
+#square{
+	width: 50%;
+	height: 40vh;
+	padding: 10px;
+	background-color: Ivory;
+	margin: 10% auto 80%;
+	border: solid 5px FireBrick;
+}
+header{
+	font-family: Copperplate;
+	font-size: 50px;
+	color: IndianRed;
+	text-align: center;
+}
+nav{
+	font-family: Copperplate;
+	text-align: center;
+	font-size: 30px;
+	border: solid 3px IndianRed;
+	width: 40%;
+	margin: auto auto;
+}
+a{
+	padding: 30px;
+}
+p{
+	font-family: Courier New;
+	font-size: 25px;
+	padding: 10px;
+}
+#question{
+	Height: 30px;
+	margin-left: 30px;
+	width: 600px;
+	font-size: 20px;
+}
+#answer{
+	Height: 30px;
+	margin-left: 30px;
+	width: 300px;
+	font-size: 20px;
+}
+#errorDiv{
+	border-bottom: solid 2px IndianRed;
+	font-family: Impact;
+}
